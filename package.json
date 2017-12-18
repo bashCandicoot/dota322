@@ -1,0 +1,23 @@
+{
+  "name": "dota322",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "dependencies": {
+    "express": "^4.16.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bashCandicoot/dota322.git"
+  },
+  "author": "bashcandicoot",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bashCandicoot/dota322/issues"
+  },
+  "homepage": "https://github.com/bashCandicoot/dota322#readme"
+}
