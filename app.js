@@ -1,5 +1,8 @@
 const express = require('express')
-const app = express()
+require('dotenv').config({ path: '.env'})
 
+const app = express()
 app.use('/', express.static('.'))
-app.listen(8080)
+
+app.set('port', process.env.port)
+const server = app.listen(app.get('port'))
