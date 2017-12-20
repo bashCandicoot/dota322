@@ -1,6 +1,5 @@
 node_modules/
 package-lock.json
 *.log
-variables.env
-variables.env.now
+*.env
 
