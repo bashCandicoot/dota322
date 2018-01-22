@@ -1,0 +1,29 @@
+{
+  "name": "dota322-client",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "dependencies": {
+    "vue": "^2.5.13",
+    "vue-router": "^3.0.1"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-env": "^1.6.1",
+    "webpack": "^3.10.0"
+  },
+  "scripts": {
+    "watch": "webpack --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bashCandicoot/dota322.git"
+  },
+  "author": "bashcandicoot",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bashCandicoot/dota322/issues"
+  },
+  "homepage": "https://github.com/bashCandicoot/dota322#readme"
+}
