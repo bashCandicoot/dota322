@@ -16,7 +16,7 @@ const javascript = {
 
 module.exports = {
   entry: {
-    App: './app.js'
+    App: './index.js'
   },
   // specify which kind of sourcemap to use
   devtool: 'source-map',
