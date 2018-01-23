@@ -1,14 +1,14 @@
 // const path = require('path')
-const webpack = require('webpack')
+// const webpack = require('webpack');
 
 const javascript = {
-  test: /\.(js)$/, 
+  test: /\.(js)$/,
   exclude: /node_modules/,
   use: [{
     loader: 'babel-loader',
-    options: { presets: ['env'] } 
+    options: { presets: ['env'] },
   }],
-}
+};
 
 // const uglify = new webpack.optimize.UglifyJsPlugin({ // eslint-disable-line
 //   compress: { warnings: false }
@@ -16,23 +16,23 @@ const javascript = {
 
 module.exports = {
   entry: {
-    App: './index.js'
+    App: './src/main.js',
   },
   // specify which kind of sourcemap to use
   devtool: 'source-map',
   //  kick it out to a file.
   output: {
     // path: path.resolve(__dirname, 'public', 'dist'),
-    filename: 'bundle.js'
+    filename: './src/bundle.js',
   },
   module: {
-    rules: [javascript]
+    rules: [javascript],
   },
   plugins: [
     // uglify
   ],
   target: 'node',
-}
+};
 
 // webpack is cranky about some packages using a soon to be deprecated API
 // process.noDeprecation = true;
