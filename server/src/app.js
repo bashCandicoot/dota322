@@ -17,4 +17,10 @@ app.get('/', (req, res) => {
   });
 });
 
+app.post('/register', (req, res) => {
+  res.send({
+    message: `Hi ${req.body.email}`,
+  });
+});
+
 module.exports = app;
