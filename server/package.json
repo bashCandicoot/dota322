@@ -18,7 +18,7 @@
     "nodemon": "^1.13.3"
   },
   "scripts": {
-    "start": "nodemon src/start.js --exec 'npm run lint'",
+    "start": "nodemon src/start.js --exec 'npm run lint && node'",
     "lint": "eslint **/*.js"
   },
   "repository": {
