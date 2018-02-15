@@ -11,6 +11,7 @@ app.use(bodyParser.json());
 app.use(cors());
 
 // app.use('/', express.static('../../client'));
+
 app.get('/', (req, res) => {
   res.send({
     message: 'hellos',
@@ -19,7 +20,7 @@ app.get('/', (req, res) => {
 
 app.post('/register', (req, res) => {
   res.send({
-    message: `Hi ${req.body.email}`,
+    message: `${req.body.email} registered`,
   });
 });
 
